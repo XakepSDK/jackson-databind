@@ -1,6 +1,6 @@
 // Generated 08-Mar-2019 using Moditect maven plugin
 module com.fasterxml.jackson.databind {
-    requires java.desktop;
+    requires static java.desktop;
 
     requires transitive com.fasterxml.jackson.annotation;
     requires transitive com.fasterxml.jackson.core;
